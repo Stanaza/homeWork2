@@ -1,0 +1,93 @@
+
+.pricing-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.pricing-body-elem {
+    color: gray;
+    font-size: 14px;
+    width: 343px;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+
+.first-li {
+    height: 59px;
+    background-color: #292F2F;
+    color: white;
+    font-size: 20px;
+    font-family:  sans-serif;
+    border-bottom: white solid 1px;
+}
+
+.second-li {
+    height: 100px;
+    background-color: #292F2F;
+    color: white;
+    font-size: 20px;
+    font-family:  sans-serif;
+    border-bottom: white solid 1px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.third-li {
+    height: 51px;
+    background-color: #292F2F;
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+    font-family:  sans-serif;
+    border-bottom: #EF9245 solid 4px;
+}
+
+.fourth-li {
+    height: 51px;
+    background-color: #EF9245;
+    color: white;
+    font-size: 14px;
+    font-family:  sans-serif;
+}
+
+li {
+    display: block;
+    border-bottom: 0.1px solid rgba(0,0,0,.3);
+    height: 40px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.pricing-body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 80px 96px;
+}
+
+.pricing-number {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.dollar {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+}
