@@ -6,15 +6,18 @@ header {
     width: 100%;
 }
 
-.header-nav {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-right: 150px;
+
+.nav-ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 331px;
+    margin-right: 150px;
+}
+
+.nav-ul li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    padding-left: 40px;
 }
 
 .header-nav-a {
@@ -26,7 +29,10 @@ header {
 }
 .header-nav-a:hover {
 color: #FF9B51;
-transition-duration: 0.8s;
+
+transition-duration: 0.5s;
+opacity: 1;
+
 }
 
 .header-body {

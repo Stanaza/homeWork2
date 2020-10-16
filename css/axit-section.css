@@ -45,16 +45,86 @@
     font-weight: lighter;
 }
 
+/* FORM */
 .axit-form {
-    width: 374px;
-    height: 368px;
-    text-align: center;
-    background-color: wheat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 150px;
 }
+
+.axit-ul li {
+    border-bottom: none; 
+}
+.axit-input-li {
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+
+#password {
+    padding-bottom: 40px;
+}
+
+.axit-try-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 8px 56px 8px 52px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: none;
+}
+
+.axit-try {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.axit-free {
+    color: #FF8B38;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.axit-input {
+    font-size: 15px;
+    font-family: 'Open sans', sans-serif;
+    border: none;
+    border-bottom: solid 1px #BEBEBE;
+    line-height: 2;
+    opacity: 0.8;
+}
+
+.axit-input:hover {
+    border-bottom: solid 1px #FF9B51;
+    transition-duration: 0.5s;
+}
+
+#axit-getstarted {
+    padding: 10px 130px;
+    background-color: #FF8B38;
+    color: #FFFFFF;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#axit-getstarted:hover {
+    color: #FF9B51;
+    font-family: 'Open sans', sans-serif;
+    transition-duration: 0.5s;
+    transition-timing-function: 1s;
+    background-color: #202020;
+}
+
 
 .axit-discription {
     margin-top: 33px;
@@ -86,9 +156,7 @@
 
 /* FOOTER  STYLE */
 
-/* .axit-footer {
-    border-bottom: solid 2px  #BEBEBE;
-} */
+
 .axit-footer::after {
     content: '';
     display: block;
@@ -141,7 +209,6 @@
     font-size: 40px;
     color: #CCCCCC;
     transition-duration: 0.3s;
-    transition-delay: 0.2s;
 }
 
 i:hover {
