@@ -1,3 +1,8 @@
+.stylish {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url(../img/background1.png);
+    background-size: cover;
+    width: 100%;
+}
 
 .stylish-title {
     color: white;
@@ -8,9 +13,6 @@
 }
 
 .stylish-container {
-    width: 100%;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url(../img/background1.png);
-    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
