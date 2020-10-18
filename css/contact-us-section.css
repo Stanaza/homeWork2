@@ -4,8 +4,7 @@
 }
 .contact-input-li {
     padding-top: 28px;
-    /* padding-left: 35px; */
-    /* padding-right: 35px; */
+   
     width: 500px;
 }
 
@@ -16,6 +15,7 @@
     border-bottom: solid 1px #BEBEBE;
     line-height: 1.9;
     opacity: 0.8;
+    outline: none
 }
 
 .contact-input:hover {
@@ -43,6 +43,7 @@ textarea {
     border-bottom: solid 1px #BEBEBE;
     opacity: 0.8;
     width: 500px;
+    outline: none
 }
 
 textarea:hover {

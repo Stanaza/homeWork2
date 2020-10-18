@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .axit-container {
-    width: 100%;
     background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url(../img/axBackground.png);
     background-size: cover;
     display: flex;
@@ -57,7 +56,7 @@
     padding-top: 30px;
     padding-left: 35px;
     padding-right: 35px;
-    
+    outline: none
 }
 
 
@@ -99,6 +98,7 @@
     border-bottom: solid 1px #BEBEBE;
     line-height: 2;
     opacity: 0.8;
+    outline: none
 }
 
 .axit-input:hover {
@@ -149,8 +149,11 @@
 .axit-discription:hover::after {
     transition-duration: 1.5s;
     width: 512px;
-    
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  
 }
+
 
 #button-axit {
     margin-bottom: 140px;
