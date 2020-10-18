@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-.axit-container {
+
+.axit {
     background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url(../img/axBackground.png);
     background-size: cover;
+}
+.axit-container {
+    width: 1140px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -46,7 +50,7 @@
 
 /* FORM */
 .axit-form {
-    margin-right: 150px;
+    margin-right: -150px;
 }
 
 .axit-ul li {
@@ -131,6 +135,7 @@
     font-size: 36px;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
+   
 }
 
 
@@ -139,20 +144,22 @@
     display: block;
     width: 74px;
     height: 2px;
-    
     background-color: #FFFFFF;
     margin-top: 30px;
     margin-bottom: 30px;
+    animation-name: axit;
 
 }
 
 .axit-discription:hover::after {
     transition-duration: 1.5s;
     width: 512px;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
-  
 }
+
+
+/* @keyframes axit {
+    animation-name: 
+} */
 
 
 #button-axit {
