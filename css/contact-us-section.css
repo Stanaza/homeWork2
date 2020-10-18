@@ -73,5 +73,7 @@ textarea:hover {
 	color: #FF9B51;
 	background-color: #333333;
     border-radius: 2px;
-	transition-duration: 0.3s;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #3A2F28;
+    transition-duration: 0.3s;
+    
 }
