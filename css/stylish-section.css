@@ -4,11 +4,11 @@
     width: 100%;
 }
 
-.stylish-title {
+#stylish-title {
     color: white;
 }
 
-.stylish-title::after {
+#stylish-title::after {
     background-color: white;
 }
 
