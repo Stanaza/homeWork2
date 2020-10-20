@@ -4,22 +4,19 @@
 .axit {
     background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url(../img/axBackground.png);
     background-size: cover;
-}
-.axit-container {
-    width: 1140px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+    width: 100%;
 }
 
-.axit-container-elem {
+.axit-body {
+    padding-top: 109px;
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.axit-elem {
     width: 520px;
-    margin-left: 150px;
 }
 
 .axit-text {
@@ -32,7 +29,7 @@
 }
 
 .axit-title {
-    margin-top: 109px;
+    
     display: flex;
     flex-direction: row;
 }
@@ -50,7 +47,7 @@
 
 /* FORM */
 .axit-form {
-    margin-right: -150px;
+    width: 360px;
 }
 
 .axit-ul li {
@@ -130,12 +127,13 @@
 }
 
 
+
 .axit-discription {
     margin-top: 33px;
     font-size: 36px;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
-   
+    
 }
 
 
@@ -147,7 +145,7 @@
     background-color: #FFFFFF;
     margin-top: 30px;
     margin-bottom: 30px;
-    animation-name: axit;
+ 
 
 }
 
@@ -156,17 +154,11 @@
     width: 512px;
 }
 
-
-/* @keyframes axit {
-    animation-name: 
-} */
-
-
 #button-axit {
     margin-bottom: 140px;
 }
 
-/* FOOTER  STYLE */
+/* SOCIAL SECTION-------------------------- */
 
 
 .axit-footer::after {
