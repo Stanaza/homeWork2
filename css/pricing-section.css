@@ -1,14 +1,25 @@
 
-.pricing-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F5F5F5;
+.pricing-section {
+width: 100%;
+background-color: #F5F5F5;
 }
 
-.pricing-body-elem {
+.pricing-body {
+   padding-bottom: 96px ;
+}
+
+.pricing-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pricing-title {
+    padding-bottom: 80px;
+}
+
+.pricing-elem {
     color: gray;
     font-size: 14px;
     width: 343px;
@@ -20,7 +31,7 @@ ul {
 }
 
 .first-li {
-    height: 59px;
+    padding: 10px;
     background-color: #292F2F;
     color: white;
     font-size: 20px;
@@ -29,7 +40,7 @@ ul {
 }
 
 .second-li {
-    height: 100px;
+    padding-top: 20px;  
     background-color: #292F2F;
     color: white;
     font-size: 20px;
@@ -43,41 +54,32 @@ ul {
 }
 
 .third-li {
-    height: 51px;
+    padding: 15px;
     background-color: #292F2F;
     color: gray;
     font-style: italic;
     font-size: 14px;
     font-family:  sans-serif;
-    border-bottom: #EF9245 solid 4px;
+    border-bottom: #FF8B38 solid 4px;
 }
 
-.fourth-li {
-    height: 51px;
-    background-color: #EF9245;
+#fourth-li {
+    background-color: #FF8B38;
     color: white;
     font-size: 14px;
     font-family:  sans-serif;
+    padding: 12px;
 }
 
-li {
+.pricing-li {
     display: block;
     border-bottom: 0.1px solid rgba(0,0,0,.3);
-    height: 40px;
+    padding: 15px;
     display: flex;
     background-color: white;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-}
-
-.pricing-body {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    margin: 80px 96px;
 }
 
 .pricing-number {
