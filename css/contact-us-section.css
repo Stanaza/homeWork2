@@ -1,11 +1,20 @@
+.contact-section {
+    width: 100%;
+}
+
+.contact-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .contact-ul li {
     border-bottom: none; 
 }
+
 .contact-input-li {
     padding-top: 28px;
-   
-    width: 500px;
 }
 
 .contact-input {
@@ -15,7 +24,8 @@
     border-bottom: solid 1px #BEBEBE;
     line-height: 1.9;
     opacity: 0.8;
-    outline: none
+    outline: none;
+    width: 527px;
 }
 
 .contact-input:hover {
@@ -23,36 +33,29 @@
     transition-duration: 0.5s;
 }
 
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .contact-form {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 textarea {
-    padding-top: 35px;
+    padding-top: 29px;
     font-size: 15px;
     font-family: 'Open sans', sans-serif;
     border: none;
     border-bottom: solid 1px #BEBEBE;
     opacity: 0.8;
-    width: 500px;
+    line-height: 1.5;
+    width: 527px;
     outline: none
 }
 
 textarea:hover {
     border-bottom: solid 1px #FF9B51;
     transition-duration: 0.5s;
-}
-
-.contact-message {
-    margin-left: 80px;
 }
 
 .send-ref {
@@ -63,8 +66,8 @@ textarea:hover {
     font-size: 17px;
     background-color: #FF9B51;
 	text-decoration: none;
-    
 }
+
 .contact-send {
     margin-top: 60px;
     margin-bottom: 80px;
@@ -76,5 +79,4 @@ textarea:hover {
     border-radius: 2px;
     box-shadow: 0 0 0 2px white, 0 0 0 4px #3A2F28;
     transition-duration: 0.3s;
-    
 }
