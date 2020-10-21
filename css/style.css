@@ -7,7 +7,7 @@
 @import url(header.css);
 @import url(axit-section.css);
 @import url(contact-us-section.css);
-
+@import url(tabs-section.css);
 
 .awesome-section {
 width: 100%;
@@ -61,7 +61,7 @@ h2::after {
     margin: 30px auto;
 }
 
-h3 {
+.elem-title {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
 }

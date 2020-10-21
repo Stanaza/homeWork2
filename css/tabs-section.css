@@ -1,0 +1,26 @@
+.tabs-section {
+    width: 100%;
+}
+
+.tabs-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vertical-block {
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.tabs-section .text {
+    text-align: left;
+}
+
+.towers-img {
+    
+}
