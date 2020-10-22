@@ -64,7 +64,13 @@ opacity: 1;
 }
 
 
-@media screen and (max-width: 570px) {
-   
+@media screen and (max-width: 550px) {
+    .header-navblock {
+        display: none;
+    }
+
+    .header-title {
+        padding: 20px;
+    }
 
 }
