@@ -80,3 +80,36 @@ textarea:hover {
     box-shadow: 0 0 0 2px white, 0 0 0 4px #3A2F28;
     transition-duration: 0.3s;
 }
+
+
+/* ------ADAPTIVE----CONTACT-US-------- */
+
+@media screen and (max-width: 1200px) {
+
+    .contact-form {
+
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 630px) {
+.contact-input {
+        width: 350px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-input {
+            width: 250px;
+        }
+    
+        textarea {
+            width: 250px;
+        }
+    }

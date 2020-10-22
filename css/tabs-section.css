@@ -85,3 +85,73 @@
     margin-top: 51px;
 }
 
+
+/* ----------ADAPTIVE-TABS----------- */
+@media screen and (max-width: 1050px) {
+    .tabs-body {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .tabs-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+    
+    .tab-elem {
+        border-radius: 5px;
+    }
+
+    .vertical-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .tab-elem button {
+        padding: 50px 80px;
+    }
+
+    .towers-img {
+        margin-top: 90px;
+    }
+} 
+
+@media screen and (max-width: 886px) {
+    .tab-elem button {
+        padding: 50px 50px;
+    }
+    .towers-img {
+        margin-top: 20px;
+    }
+
+    .tabs-body {
+        padding-top: 30px;
+    }
+
+    .vertical-title {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .tab-elem button {
+        padding: 50px 30px;
+    }
+    .tabs-body {
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .tab-elem button {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .tab-elem button {
+        padding: 40px 15px;
+    }
+}

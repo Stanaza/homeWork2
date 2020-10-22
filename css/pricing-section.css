@@ -94,3 +94,44 @@ ul {
     font-family: 'Raleway', sans-serif;
     line-height: 2;
 }
+
+
+/* -------ADAPTIVE-PRICING------- */
+
+@media screen and (max-width: 1200px) {
+
+    .pricing-elements {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .pricing-elem {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .pricing-elements {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .pricing-elem {
+        width: 35%;
+        margin-top: 50px;
+    }
+
+    .pricing-title {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .pricing-elem {
+        width: 60%;
+        margin-top: 50px;
+    }
+}
+

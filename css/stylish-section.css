@@ -49,3 +49,23 @@
 }
 
 
+/* ------ADAPTIVE----STYLISH------- */
+
+@media screen and (max-width: 810px) {
+    .stylish-body {
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 460px) {
+   #stylish-title {
+       font-size: 30px;
+   }
+}
+
+@media screen and (max-width: 385px) {
+    #stylish-title {
+        font-size: 25px;
+    }
+ }

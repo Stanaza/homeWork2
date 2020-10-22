@@ -65,4 +65,31 @@
     flex-direction: row;
 }
 
-  
+  /* ------ADAPTIVE---CUSTOMERS------- */
+
+  @media screen and (max-width: 970px) {
+      .customers-elements {
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin: 100px auto;
+      }
+
+      #custom-elem-last {
+          margin-top: 130px;
+      }
+
+  }
+
+  @media screen and (max-width: 615px) {
+    .customers-elements {
+        margin: 0px auto;
+    }
+   .customers-elem {
+       margin-top: 60px;
+   }
+   #custom-elem-last {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+  }

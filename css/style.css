@@ -76,4 +76,31 @@ h2::after {
 }
 
 
+/* --------ADAPTIVE--AWESOME------ */
 
+@media screen and (max-width: 1110px) {
+
+    .awesome-elements {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    #awesome-elem-last {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 777px) {
+
+    .awesome-elem {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    #awesome-elem-last {
+        margin-top: 50px;
+    }
+    #awesome-elem-first {
+        margin-top: 0px;
+    }
+}

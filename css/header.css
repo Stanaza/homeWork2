@@ -5,11 +5,9 @@
     background-color: black;
     width: 100%;
     
-    /* display: flex;
-    justify-content: center; */
 }
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -63,4 +61,12 @@ opacity: 1;
     color: #FF8B38;
     font-size: 27px;
     font-weight: lighter;
+}
+
+
+@media screen and (max-width: 570px) {
+    .header-navblock {
+        margin-right: 10px;
+    }
+
 }
